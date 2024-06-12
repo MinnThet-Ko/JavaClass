@@ -1,4 +1,4 @@
-package com;
+package com.day1;
 
 public class BankAccountTest {
 	public static void main(String[] args) {
