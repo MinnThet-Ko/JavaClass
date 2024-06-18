@@ -23,6 +23,24 @@ public class Day3_Main {
 		//Reverse string
 		StringReverser sr = new StringReverser();
 		System.out.println(sr.reverseString("hello"));
+		
+		//Power of a number
+		PowerOfANumber power = new PowerOfANumber();
+		System.out.println("2 power 3:"+ power.power(2, 3));
+		
+		//GCD
+		GCD gcd = new GCD();
+		System.out.println("GCD of 48 and 18:"+gcd.gcd(108, 92));
+		
+		//String to Integer
+		StringToInt strToInt = new StringToInt();
+		System.out.println("Converting 1234 to int:"+strToInt.stringToInt("1234"));
+		
+		//I'll skip ToH because I don't understand the question well.
+		
+		//Palindrome
+		Palindrome p =new Palindrome();
+		System.out.println("Check racecar for palindrome:"+p.isPalindrome("madam"));
 	}
 
 }
