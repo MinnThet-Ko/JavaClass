@@ -1,0 +1,9 @@
+1. In OO design, there is a rule called, "Classes should be opened for extension and closed for modification".
+By making use of inheritance, you can add new behaviors to the child classes while keeping the parent class untouched.
+
+2. From my understanding, inheritance and polymorphism are closely related.
+The parent class is the generalization as it will contain all the common data and functions 
+and the child classes will be specialization as they will have their own unique features.
+
+3. Overriding is modifying the functions of the parent class, as you can update the toString() method of java.lang.Object.
+Overloading is creating methods with the same name but with different types of parameters.
