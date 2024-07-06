@@ -52,11 +52,11 @@ public class Library {
 	}
 
 	public void displayBooks() {
-		this.bookList.forEach((book) -> book.toString());
+		this.bookList.forEach((book) -> System.out.println(book.toString()) );
 	}
 
 	public void displayMembers() {
-		this.memberList.forEach((member) -> member.toString());
+		this.memberList.forEach((member) -> System.out.println(member.toString()));
 	}
 	
 	
