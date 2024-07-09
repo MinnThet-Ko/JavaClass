@@ -32,6 +32,7 @@ public class Member {
 		this.burrowedBooks.remove(this.burrowedBooks.indexOf(book));
 	}
 	
+	@Override
 	public String toString() {
 		return String.format("Name: %s \n Burrowed books: %d", this.name, this.burrowedBooks.size());
 	}

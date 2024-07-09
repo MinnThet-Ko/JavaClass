@@ -30,8 +30,9 @@ public class Book {
 		this.isAvailable = true;
 	}
 	
+	@Override
 	public String toString() {
-		return String.format("Title: %s \n Author: %s \n ISBN: %s \n", this.author, this.author, this.ISBN);
+		return String.format("Title: %s \nAuthor: %s \nISBN: %s \nAvailability: %s", this.author, this.author, this.ISBN, this.isAvailable? "Available":"Unavailable");
 				
 	}
 
